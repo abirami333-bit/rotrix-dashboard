@@ -64,7 +64,7 @@ def load_pcd(file):
     return df
 
 
-st.markdown("### 🚀 Data Visualization")
+st.markdown("### 🚀 Data Vizionary")
 
 # st.markdown("#### 🔼 Upload Benchmark & Validation Files")
 st.markdown("<h4 style='font-size:20px; color:#0068c9;'>🔼 Upload Benchmark & Target Files</h4>", unsafe_allow_html=True)
@@ -81,8 +81,8 @@ if url:
     except Exception as e:
         st.error(f"Error loading file: {e}")
 
-# st.markdown("### 🧪 Benchmark Data")
-# st.dataframe(df)
+st.markdown("### 🧪 Benchmark Data")
+st.dataframe(df)
 
 # Simulate a topbar with two upload sections
 top_col1, top_col3, top_col4 = st.columns(3)
